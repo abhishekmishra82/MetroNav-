@@ -1,2 +1,2 @@
 # MetroNav-
-MetroNav+ is a Java-based metro navigation system for Delhi Metro. 
+MetroNav+ is a Java-based metro navigation system for Delhi Metro. I modeled the metro map as a weighted undirected graph where stations are nodes and tracks between them are edges with distances in km as weights. I implemented Dijkstra's algorithm using a min-heap priority queue to find the shortest path between any two stations. The system also estimates fare using Delhi Metro's slab-based pricing. It covers 4 lines — Yellow, Blue, Red, and Violet — with real interchange stations like Rajiv Chowk and Kashmere Gate.
